@@ -29,4 +29,4 @@ me = requests.get(
     chat + '/api/v1/users/me',
     cookies=r2.cookies,
 )
-print me.json()  # if everything went well you're now authorized
+print('me.json()')  # if everything went well you're now authorized
