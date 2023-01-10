@@ -25,8 +25,6 @@ r2 = requests.post(
     }
 )
 
-# print [h.url for h in r2.history] + [r2.url]  # to check the redirects
-
 me = requests.get(
     chat + '/api/v1/users/me',
     cookies=r2.cookies,
